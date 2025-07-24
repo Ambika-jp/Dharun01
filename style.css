@@ -1,0 +1,32 @@
+body {
+    background: #0e0e0e;
+    color: #fff;
+    text-align: center;
+    font-family: Arial;
+    padding: 20px;
+  }
+  input, button {
+    margin: 10px;
+    padding: 10px;
+  }
+  #frames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  #frames div {
+    border: 1px solid #444;
+    padding: 5px;
+    background: #1e1e1e;
+  }
+  canvas, img {
+    max-width: 320px;
+    height: auto;
+  }
+  progress {
+    width: 80%;
+    height: 20px;
+  }
+  
